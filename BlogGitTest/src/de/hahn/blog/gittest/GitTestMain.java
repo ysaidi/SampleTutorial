@@ -4,6 +4,10 @@ public class GitTestMain {
     public GitTestMain() {
         super();
     }
+    
+    public String sayHello(String name){
+        return "Hello "+name;
+    }
 
     public static void main(String[] args) {
         GitTestMain gitTestMain = new GitTestMain();
